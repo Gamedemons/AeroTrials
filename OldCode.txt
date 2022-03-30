@@ -1,0 +1,475 @@
+##########################################################################
+
+cv2.imshow('Hat & glasses', im)
+            # key = cv2.waitKey(1) & 0xff
+            #
+            # if key == 27:  # The Esc key
+            #     break
+
+            if cv2.waitKey(1) & 0xff == ord('q'):
+                break
+
+##########################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############################################################
+
+# from tkinter import *
+#
+# # Create object
+# root = Tk()
+#
+# # Adjust size
+# root.geometry("400x400")
+#
+# # Add image file
+# bg = PhotoImage(file="F:\\Coding\\New folder\\New folder\\Insta_flters_with_python\\Filters\\trans.png")
+#
+# # Show image using label
+# label1 = Label(root, image=bg)
+# label1.place(x=0, y=0)
+#
+# # Add text
+# label2 = Label(root, text="Welcome",
+#                bg="#88cffa")
+#
+# label2.pack(pady=50)
+#
+# # Create Frame
+# frame1 = Frame(root, bg="#88cffa")
+# frame1.pack(pady=20)
+#
+# # Add buttons
+# button1 = Button(frame1, text="Exit")
+# button1.pack(pady=20)
+#
+# button2 = Button(frame1, text="Start")
+# button2.pack(pady=20)
+#
+# button3 = Button(frame1, text="Reset")
+# button3.pack(pady=20)
+#
+# # Execute tkinter
+# root.mainloop()
+
+###############################################################
+
+# import sys
+# import os
+# import Tkinter
+# import tkMessageBox
+# top=Tkinter.Tk()
+# def helloCallBack():
+#     os.system('SendEmail.py')
+# B=Tkinter.Button(top,text="hello",command= helloCallBack)
+# B.pack()
+
+###############################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from tkinter import *
+from detection import giveInp
+import mysql.connector
+from mysql.connector import errorcode
+from tkinter import *
+
+selectionWindowFrame = None
+username = None
+
+
+# Methods
+# def __init__(mainWindowFrame, ws):
+#     ws = mainWindowFrame
+#     return ws
+
+
+def startSelectionWindow(name):
+    selectionWindow = Tk()
+    selectionWindow.title('AeroTrial')
+    selectionWindow.geometry('1000x580')
+    selectionWindow.resizable(0, 0)
+    selectionWindow.wm_iconbitmap('Filters\\Icons\\chat.ico')
+    # backgroundImage = PhotoImage(file='Filters\\BackGround\\lg.png')
+    #
+    # bg = Label(
+    #     selectionWindowFrame,
+    #     image=backgroundImage
+    # )
+    # bg.place(x=-20, y=-20)
+
+    global username
+    username = name
+
+    global selectionWindowFrame
+    selectionWindowFrame = selectionWindow
+    setSelectionBackground()
+
+
+def setSelectionBackground():
+    backgroundImage = PhotoImage(file='Filters\\BackGround\\lg.png')
+    bg = Label(
+        selectionWindowFrame,
+        image=backgroundImage
+    )
+    bg.place(x=-20, y=-20)
+
+
+def quitSelectionWindow():
+    try:
+        selectionWindowFrame.destroy()
+    except EXCEPTION:
+        print('Error')
+
+    # Code
+
+    labelHead = Label(
+        selectionWindowFrame,
+        text='Welcome to our virtual space.',
+        height=2,
+        width=30,
+    )
+    labelHead.place(x=270, y=30)
+    labelHead.config(font=("Courier New", 20))
+
+    def sqlCon(a):
+
+        if username != '':
+            try:
+                sqlc = mysql.connector.connect(user='root', database='hackathon', host='localhost', passwd='abcd')
+                cursorObject = sqlc.cursor()
+                sql = 'INSERT INTO cd (CustomerName, Product) VALUES (%s, %s)'
+                valn = (username, a)
+                cursorObject.execute(sql, valn)
+                sqlc.commit()
+            except mysql.connector.Error as err:
+                if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+                    print("Something is wrong with your user name or password")
+                elif err.errno == errorcode.ER_BAD_DB_ERROR:
+                    print("Database does not exist")
+                else:
+                    print(err)
+            else:
+                sqlc.close()
+        elif username == '':
+            print('Empty Username')
+        else:
+            print('No Product')
+
+    def runf1():
+        sqlCon('Regular Black Goggles')
+        giveInp(1)
+
+    def runf2():
+        sqlCon('Blue Aviator Goggles')
+        giveInp(2)
+
+    def runf3():
+        sqlCon('Rectangular Goggles')
+        giveInp(3)
+
+    def runf4():
+        sqlCon('Circular Goggles')
+        giveInp(4)
+
+    def runf5():
+        sqlCon('Dark Goggles')
+        giveInp(5)
+
+    def runf6():
+        sqlCon('CatEar Goggles')
+        giveInp(6)
+
+    def runf7():
+        sqlCon('Thug Life Mask')
+        giveInp(7)
+
+    def runf8():
+        sqlCon('Bunny Ears HandBand')
+        giveInp(8)
+
+    ob1 = Button(
+        selectionWindowFrame,
+        text='Glasses 1',
+        height=2,
+        width=6,
+        command=runf1
+    )
+    ob1.place(x=270, y=120)
+    img1 = PhotoImage(file='Filters\\Converted\\glasses.png')
+    od1 = Label(
+        selectionWindowFrame,
+        image=img1
+    )
+    od1.place(x=350, y=120)
+
+    ob2 = Button(
+        selectionWindowFrame,
+        text='Glasses 2',
+        height=2,
+        width=6,
+        command=runf2
+    )
+    ob2.place(x=270, y=210)
+    img2 = PhotoImage(file='Filters\\Converted\\glasses2.png')
+    od2 = Label(
+        selectionWindowFrame,
+        image=img2
+    )
+    od2.place(x=350, y=210)
+
+    ob3 = Button(
+        selectionWindowFrame,
+        text='Glasses 3',
+        height=2,
+        width=6,
+        command=runf3
+    )
+    ob3.place(x=270, y=300)
+    img3 = PhotoImage(file='Filters\\Converted\\glasses3.png')
+    od3 = Label(
+        selectionWindowFrame,
+        image=img3
+    )
+    od3.place(x=350, y=300)
+
+    ob4 = Button(
+        selectionWindowFrame,
+        text='Glasses 4',
+        height=2,
+        width=6,
+        command=runf4
+    )
+    ob4.place(x=270, y=390)
+    img4 = PhotoImage(file='Filters\\Converted\\glasses4.png')
+    od4 = Label(
+        selectionWindowFrame,
+        image=img4
+    )
+    od4.place(x=350, y=390)
+
+    ob5 = Button(
+        selectionWindowFrame,
+        text='Glasses 5',
+        height=2,
+        width=6,
+        command=runf5
+    )
+    ob5.place(x=550, y=120)
+    img5 = PhotoImage(file='Filters\\Converted\\glasses5.png')
+    od5 = Label(
+        selectionWindowFrame,
+        image=img5
+    )
+    od5.place(x=630, y=120)
+
+    ob6 = Button(
+        selectionWindowFrame,
+        text='Glasses 6',
+        height=2,
+        width=6,
+        command=runf6
+    )
+    ob6.place(x=550, y=210)
+    img6 = PhotoImage(file='Filters\\Converted\\glasses6.png')
+    od6 = Label(
+        selectionWindowFrame,
+        image=img6
+
+    )
+    od6.place(x=630, y=210)
+    od6.config(font=('Comic Sans MS', 12))
+
+    ob7 = Button(
+        selectionWindowFrame,
+        text='Glasses 7',
+        height=2,
+        width=6,
+        command=runf7
+    )
+    ob7.place(x=550, y=300)
+    img7 = PhotoImage(file='Filters\\Converted\\fun.png')
+    od7 = Label(
+        selectionWindowFrame,
+        image=img7
+    )
+    od7.place(x=630, y=300)
+
+    ob8 = Button(
+        selectionWindowFrame,
+        text='Glasses 8',
+        height=2,
+        width=6,
+        command=runf8
+    )
+    ob8.place(x=550, y=390)
+    img8 = PhotoImage(file='Filters\\Converted\\bunny.png')
+    od8 = Label(
+        selectionWindowFrame,
+        image=img8
+    )
+    od8.place(x=630, y=390)
+
+    quit = Button(
+        selectionWindowFrame,
+        text='Quit',
+        relief=RAISED,
+        font=('Arial Bold', 18),
+        # command='exit_button'
+        command=selectionWindowFrame.destroy
+    )
+    quit.place(x=920, y=520)
+
+    try:
+        selectionWindowFrame.mainloop()
+    except EXCEPTION:
+        print('Quitting the application.')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#importing library
+from tkinter import *
+#creating window
+window = Tk()
+#Title
+window.title('Grand Canyon')
+#display attributes
+canvas = Canvas(window, width = 500, height = 500)
+canvas.pack()
+#GIF in my_image variable
+#Give the entire file address along with the file name and gif extension
+#Use \\ in the address
+#The image given by me is C:\\UserAdmin\\Device\\Desktop2\\canyon.gif
+my_image = PhotoImage(file='FIle Location\\Filename.gif')
+canvas.create_image(0, 0, anchor = NW, image-my_image)
+
+
+
+
+
+
+
+
+
+
+
+
+
+style.configure('TButton', font =('calibri', 20, 'bold'), borderwidth = '4')
+
+# Changes will be reflected
+# by the movement of mouse.
+style.map('TButton', foreground = [('active', '!disabled', 'green')], background = [('active', 'black')])
+
+# button 1
+btn1 = Button(root, text = 'Quit !', command = root.destroy)
+btn1.grid(row = 0, column = 3, padx = 100)
+
+# button 2
+btn2 = Button(root, text = 'Click me !', command = None)
+btn2.grid(row = 1, column = 3, pady = 10, padx = 100)
+
+# Execute Tkinter
+root.mainloop()

@@ -1,0 +1,6 @@
+1 - normal
+2 - blue aviator        rim
+3 - rect
+4 - circular nf
+5 - circular            blackbox
+8 - bunny               short

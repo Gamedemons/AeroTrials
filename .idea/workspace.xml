@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a29a38c-fbdb-4cba-bb98-87501514a8b5" name="Changes" comment="8th commit before chsnges in def">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDetails.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserDetails.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Real_Time_Product_Trials" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zquFUN1MkQaflRRcAbxuHbGuPL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Start.py" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.splitter.proportion" value="0.30753565" />
+  </component>
+  <component name="PyFindUsagesOptions">
+    <option name="isSearchForTextOccurrences" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Coding\New folder\New folder\Insta_flters_with_python" />
+      <recent name="F:\Coding\New folder\New folder\Insta_flters_with_python\Filters\Frames\Old" />
+      <recent name="F:\Coding\New folder\New folder\Insta_flters_with_python\Filters\BackGround" />
+      <recent name="F:\Coding\New folder\New folder\Insta_flters_with_python\Filters\Frames" />
+      <recent name="F:\Coding\New folder\New folder\Insta_flters_with_python\Filters\Icons" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="PythonConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Start">
+    <configuration name="Catalogue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Real_Time_Product_Trials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Code\Codes\Application Files\Insta_flters_with_python\Catalogue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Real_Time_Product_Trials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Code\Codes\Application Files\Insta_flters_with_python\Log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Real_Time_Product_Trials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\GameDemons\AppData\Local\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserDetails" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Real_Time_Product_Trials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UserDetails.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Real_Time_Product_Trials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Real_Time_Product_Trials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tmp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Start" />
+      <item itemvalue="Python.Log" />
+      <item itemvalue="Python.tmp" />
+      <item itemvalue="Python.Catalogue" />
+      <item itemvalue="Python.UserDetails" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Start" />
+        <item itemvalue="Python.Catalogue" />
+        <item itemvalue="Python.tmp" />
+        <item itemvalue="Python.UserDetails" />
+        <item itemvalue="Python.Log" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.12582237" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Python" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Python" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a29a38c-fbdb-4cba-bb98-87501514a8b5" name="Changes" comment="" />
+      <created>1634887836029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634887836029</updated>
+    </task>
+    <task id="LOCAL-00001" summary="1ST">
+      <created>1634897409125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634897409125</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2nd Commit">
+      <created>1634912400888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634912400888</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3rd Commit">
+      <created>1634981200878</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634981200878</updated>
+    </task>
+    <task id="LOCAL-00004" summary="4rd Commit">
+      <created>1634981218608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634981218608</updated>
+    </task>
+    <task id="LOCAL-00005" summary="5th Commit InI">
+      <created>1635023655806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635023655806</updated>
+    </task>
+    <task id="LOCAL-00006" summary="6th Commit InI">
+      <created>1635024823038</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635024823038</updated>
+    </task>
+    <task id="LOCAL-00007" summary="6th Commit InI">
+      <created>1635024925837</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635024925837</updated>
+    </task>
+    <task id="LOCAL-00008" summary="7th Commit InI without cig">
+      <created>1635024983903</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1635024983903</updated>
+    </task>
+    <task id="LOCAL-00009" summary="8th commit before chsnges in def">
+      <created>1635926429036</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635926429036</updated>
+    </task>
+    <task id="LOCAL-00010" summary="8th commit before chsnges in def">
+      <created>1638117515361</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638117515361</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <MESSAGE value="1ST" />
+    <MESSAGE value="2nd Commit" />
+    <MESSAGE value="3rd Commit" />
+    <MESSAGE value="4rd Commit" />
+    <MESSAGE value="5th Commit InI" />
+    <MESSAGE value="6th Commit InI" />
+    <MESSAGE value="7th Commit InI without cig" />
+    <MESSAGE value="8th commit before chsnges in def" />
+    <option name="LAST_COMMIT_MESSAGE" value="8th commit before chsnges in def" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="679" y="154" key="#Start" timestamp="1643549451024">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="679" y="154" key="#Start/0.0.1920.1080@0.0.1920.1080" timestamp="1643549451024" />
+    <state x="414" y="194" width="1092" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636223697175">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="194" width="1092" height="707" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1636223697175" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1638117512018">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1635926412118" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1638117512018" />
+    <state x="694" y="301" key="EnvironmentVariablesDialog" timestamp="1635676465106">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="694" y="301" key="EnvironmentVariablesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1635676465106" />
+    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1636223694730">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="493" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1635924183366" />
+    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1636223694730" />
+    <state width="1634" height="295" key="GridCell.Tab.0.bottom" timestamp="1643549679042">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1062" height="166" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1635941557608" />
+    <state width="1634" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1643549679042" />
+    <state width="1634" height="295" key="GridCell.Tab.0.center" timestamp="1643549679042">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1062" height="166" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1635941557608" />
+    <state width="1634" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1643549679042" />
+    <state width="1634" height="295" key="GridCell.Tab.0.left" timestamp="1643549679042">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1062" height="166" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1635941557608" />
+    <state width="1634" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1643549679042" />
+    <state width="1634" height="295" key="GridCell.Tab.0.right" timestamp="1643549679042">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1062" height="166" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1635941557608" />
+    <state width="1634" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1643549679042" />
+    <state width="1622" height="90" key="GridCell.Tab.1.bottom" timestamp="1638116186206">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1622" height="90" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1638116186206" />
+    <state width="1622" height="90" key="GridCell.Tab.1.center" timestamp="1638116186206">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1622" height="90" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1638116186206" />
+    <state width="1622" height="90" key="GridCell.Tab.1.left" timestamp="1638116186206">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1622" height="90" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1638116186206" />
+    <state width="1622" height="90" key="GridCell.Tab.1.right" timestamp="1638116186206">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1622" height="90" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1638116186206" />
+    <state x="461" y="182" key="SettingsEditor" timestamp="1637513179723">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="67" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1635924188740" />
+    <state x="461" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1637513179723" />
+    <state x="524" y="273" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1635708899356">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="524" y="273" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1635708899356" />
+    <state x="642" y="116" key="refactoring.ChangeSignatureDialog" timestamp="1636283849440">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="642" y="116" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1636283849440" />
+    <state x="0" y="0" key="scopes" timestamp="1635931847595">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="0" key="scopes/0.0.1280.720@0.0.1280.720" timestamp="1635931847595" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1637513501798">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1637513501798" />
+  </component>
+</project>
